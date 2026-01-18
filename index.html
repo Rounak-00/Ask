@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine?</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Page 1 -->
+        <div id="page1" class="page active">
+            <div class="image-container">
+                <!-- Replace 'your-image.jpg' with your actual image path -->
+                <img src="page1.gif" id="valentine-pic">
+            </div>
+            <h1>Will you be my valentine? ❤️</h1>
+            <div class="buttons">
+                <button class="yes-btn" onclick="nextPage(5)">Yes</button>
+                <button class="no-btn" onclick="nextPage(2)">No</button>
+            </div>
+        </div>
+
+        <!-- Page 2 -->
+        <div id="page2" class="page">
+            <img src="puppy eyes.gif" alt="Pleading">
+            <h1>Please man jao na? 🥺</h1>
+            <div class="buttons">
+                <button class="yes-btn" onclick="nextPage(5)">Yes</button>
+                <button class="no-btn" onclick="nextPage(3)">Nope, nahi manunngi</button>
+            </div>
+        </div>
+
+        <!-- Page 3 -->
+        <div id="page3" class="page">
+            <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHp1bmR4bmZ0YnZqZzR4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4JnVwPTE/KztT2c4u8mYYUiMKdJ/giphy.gif" alt="Brownie">
+            <h1>Silk Brownie gunda abhi man jao 🍫</h1>
+            <div class="buttons">
+                <button class="yes-btn" onclick="nextPage(5)">Yipee</button>
+                <button class="no-btn" onclick="nextPage(4)">Tum kya mujhay gold digger samne ho</button>
+            </div>
+        </div>
+
+        <!-- Page 4 -->
+        <div id="page4" class="page">
+            <img src="i-love-you.gif" alt="Love">
+            <h1>Areh I love you na ab man bhi jao please 💖</h1>
+            <div class="buttons">
+                <button class="yes-btn" onclick="nextPage(5)">Yes</button>
+                <button class="yes-btn" onclick="nextPage(5)">Obviously Yes</button>
+            </div>
+        </div>
+
+        <!-- Page 5 (Success Page) -->
+        <div id="page5" class="page">
+            <img src="lastPage.gif" alt="Happy">
+            <h1>Thank you baby. I knew you are special. ✨</h1>
+            <p>I love you forever! ❤️</p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
